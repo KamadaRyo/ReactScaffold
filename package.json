@@ -9,12 +9,14 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-rscss": "^0.4.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +36,33 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.0.0",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "babel-root-import": "^4.1.8",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "husky": "^4.3.7",
+    "jest": "^26.6.0",
+    "lint-staged": "^10.5.3",
+    "node-sass": "^5.0.0",
+    "postcss": "^7.0.35",
+    "prettier": "^2.2.1",
+    "sass-loader": "^8.0.2",
+    "stylelint": "^13.8.0",
+    "stylelint-config": "^0.1.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "ts-jest": "^26.4.4"
   }
 }
